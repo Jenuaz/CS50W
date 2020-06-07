@@ -2,7 +2,9 @@
 
 | Command | Explanation |
 |  ---    |     ---     |
-|    cd   |  allow us to move around local machine files \ change directory. ***cd ./ *** - current directory. ***cd ../ *** - go to previouse in tree of file system directory.| 
+|    cd   |  allow us to move around local machine files \ change directory. 
+***cd ./ *** - current directory. 
+***cd ../ *** - go to previouse in tree of file system directory.| 
 
 Example:
 before 'cd ../'
