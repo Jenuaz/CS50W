@@ -179,7 +179,16 @@ git reset --hard <commit hash>
 git reset --hard origin/master <- get back to original server last version
 ```
 git reset --hard \<commit hash> - reset all data and git history to that specific commit and delete all other history log which was after
-mentioned commit.  
+mentioned commit.
+
+| Command | Explanation |
+|  ---    |     ---     |
+| git reset  |  delete all commits which was made after that commit which we put as --hard \<commit hash> agrument FROM LOCAL machine. |
+
+We won't be able to return to commits which was made after reset commit in current state on local machine but we can chack commits
+which was available at server GH by **git reflog**.
+
+
 
 
 
