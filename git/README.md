@@ -113,6 +113,13 @@ Use this command to refresh your memory if your forget whether you have made new
 | git push  | send all commits to GH server in linked repository. |
 This command allow to push all our commits (snaps) from local computer to repository. Now our GH repository will have a content.
 
+| Command | Explanation |
+|  ---    |     ---     |
+| git pull  | pull all changes from repository that someone has made in GH server. |
+
+To test it you can one your https://github.com/nameOfYourRepository.git and edit the hello.html file directly in web editor. And 
+Save those changes. It will count as someone else provide changes to our repository. If we want to pull those changes we will use
+that command and new version of our project will be pulled to our local machine.
 
 
 
