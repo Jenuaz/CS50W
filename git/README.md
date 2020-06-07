@@ -40,7 +40,7 @@ however you want and click "Create Repository". Now GH create for us repostiory 
 repositry. So for now our repostiory not at our PC but it's a moment thing to fix. 
 
 The first step in git is ***git clone <repository url>*** command. This command download a copy of the repositry to local machine. To do 
-so we will put HTTPS link provided by GH in command ***git clone \https://github.com/nameOfYourRepository.git*** and clone repositry to 
+so we will put HTTPS link provided by GH in command ***git clone https ://github.com/nameOfYourRepository.git*** and clone repositry to 
 our local machine. As you already guess we work with git in terminal or CMD. But all manipulation described here was made in terminal.
 
 Main things what git allow you to do:
@@ -88,5 +88,17 @@ OR
 ```bash
 git add hello.html OtherNameOfFile.c
 ```
+Next step is to use commit. It just fancy way of saying take a snapshot or the repository in the current moment in our local machine
+and save it. And it will work in the next way:
+```bash
+git commit -m "Any message with help tp understand what changes applied to this snapshot. To find it later."
+```
+This command followed with flag: "-m" - this flag for message and it's required. And we have "" quatation marks that nested some 
+English message describing what it is that I've hanged in this commit, describtion that's happened in this change that makes a 
+difference from previouse verion of this code. It will help to return to best working version of your project.
+You need to know that git add . and git commit -m "text here" are doing snaps in your local machine repository. You didn't share your
+work with server. So if anything crucial will happened with your HDD or SDD and you didn't push all changes to server. All your 
+work with files will be lost. So don't hesitate to push changes to your server repository GH.
+
 
 
