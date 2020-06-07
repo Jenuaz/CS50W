@@ -30,7 +30,7 @@ after 'cd ../'
 
 # Version Control GitHub clone
 
-To start - create a (GitHub)[https://github.com] account. GitHub - is just a web site with allow as to store git repositories on the internet. It's give you
+To start - create a [GitHub](https://github.com) account. GitHub - is just a web site with allow as to store git repositories on the internet. It's give you
 and people all around the world access to git repositories that you can look at repositories that other people have created and
 contribute to them or use them and such that you can work on your own projects, push them to GitHub so that your collaborators or 
 other people on the internet can also see and use and work on those projects as well.
@@ -40,7 +40,7 @@ however you want and click "Create Repository". Now GH create for us repostiory 
 repositry. So for now our repostiory not at our PC but it's a moment thing to fix. 
 
 The first step in git is ***git clone <repository url>*** command. This command download a copy of the repositry to local machine. To do 
-so we will put HTTPS link provided by GH in command ***git clone https://github.com/nameOfYourRepository.git*** and clone repositry to 
+so we will put HTTPS link provided by GH in command ***git clone \https://github.com/nameOfYourRepository.git*** and clone repositry to 
 our local machine. As you already guess we work with git in terminal or CMD. But all manipulation described here was made in terminal.
 
 Main things what git allow you to do:
@@ -88,4 +88,5 @@ OR
 ```bash
 git add hello.html OtherNameOfFile.c
 ```
+
 
