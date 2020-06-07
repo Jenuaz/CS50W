@@ -104,6 +104,7 @@ work with files will be lost. So don't hesitate to push changes to your server r
 | Command | Explanation |
 |  ---    |     ---     |
 | git status  |  simple command that just tells you what's currently going on in your repository. |
+
 Use this command to refresh your memory if your forget whether you have made new commit since the last time you checked from GH e.t.c.
 
 # How to push all our changes to GH repository
@@ -111,6 +112,7 @@ Use this command to refresh your memory if your forget whether you have made new
 | Command | Explanation |
 |  ---    |     ---     |
 | git push  | send all commits to GH server in linked repository. |
+
 This command allow to push all our commits (snaps) from local computer to repository. Now our GH repository will have a content.
 
 | Command | Explanation |
@@ -120,6 +122,8 @@ This command allow to push all our commits (snaps) from local computer to reposi
 To test it you can one your https://github.com/nameOfYourRepository.git and edit the hello.html file directly in web editor. And 
 Save those changes. It will count as someone else provide changes to our repository. If we want to pull those changes we will use
 that command and new version of our project will be pulled to our local machine!
+
+What may happen if changes has been introduces current local workflow and server workflow? In other words what will happen if your hello world is committed but not pushed to the server and server already have new data (so our hello was changed by someone else)?
 
 
 
