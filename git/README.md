@@ -2,11 +2,13 @@
 
 | Command | Explanation |
 |  ---    |     ---     |
-|    cd   |  allow us to move around local machine files \ change directory. 
-***cd ./ *** - current directory. 
-***cd ../ *** - go to previouse in tree of file system directory.| 
+|    cd   |  allow us to move around local machine files \ change directory.| 
 
-Example:
+
+**cd ./** \- current directory.
+**cd ../** \- go to previouse in tree of file system directory. 
+
+**Example:**
 before 'cd ../'
 -Previouse Directory
 	-Current Directory <-- cd we here
@@ -14,15 +16,9 @@ after 'cd ../'
 -Previouse Directory <-- now we here
 	-Current Directory
 
-
-
-```bash
-
-``` -
-
-```bash
-ls
-``` - allow to view all files in current directory.
+| Command | Explanation |
+|  ---    |     ---     |
+|    ls   |  allow to view all files in current directory.| 
 
 
 # Version Control GitHub clone
