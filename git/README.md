@@ -7,7 +7,7 @@
 
 **cd ./** \- current directory.
 
-**cd ../** \- go to previouse in tree of file system directory. 
+**cd ../** \- go to previouse in the tree of file system directory. 
 
 **Example:**
 
@@ -25,7 +25,7 @@ after 'cd ../'
 
 | Command | Explanation |
 |  ---    |     ---     |
-|    ls   |  allow to view all files in current directory.| 
+|    ls   |  allow to view all files in current directory. Mean list all files| 
 
 
 # Version Control GitHub clone
@@ -52,5 +52,27 @@ Main things what git allow you to do:
 Don't be surprosed that repository which is cloned and brand new created is empty. So in terminal you will see only empty folder with an 
 repository name.
 
+# Push file to repository
 
+To push file to our brand new created and cloned repository we need to relocate to our cloned repository using command "cd".
+```bash
+cd ./nameOfYourRepository
+```
+And then let's create a html file "hello.html". To do so open vim. Press key button 'I' - which mean insert mode. Write the next code:
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> My Webpage! </title>
+	</head>
+	<body>
+		Hello world!
+	</body>
+</html>
+```
+And save file by pressing next algorithm of actions:
+1. Press 'Esc'.
+2. Press ':'.
+3. Write wq letters which mean w - for write and q - quit. First save all putted in text and second exit the vim text editor.
+   
 
