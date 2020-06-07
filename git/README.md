@@ -10,17 +10,18 @@
 **cd ../** \- go to previouse in tree of file system directory. 
 
 **Example:**
+
 before 'cd ../'
 
 -Previouse Directory
 
-	-Current Directory <-- cd we here
+-Current Directory <-- cd we here
 
 after 'cd ../'
 
 -Previouse Directory <-- now we here
 
-	-Current Directory
+-Current Directory
 
 | Command | Explanation |
 |  ---    |     ---     |
