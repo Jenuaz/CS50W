@@ -135,6 +135,13 @@ Hello world! Hello again.
 When we will try to pull all data from server we will receive **merge conflict**. It's mean that GH don't know which changes
 to apply if those changes related to the same files and same rows. The pull can happen. But we will need to manually resolve it.
 
+```html
+<<<<<<< HEAD
+                Hello world! Hello again ! Hello a third time. <-- this is your local changes.
+=======
+                Hello world! Hello again !  <-- this is all GH server changes.
+>>>>>>> 2f94b6f24359c8cab50f1fe50d2ae22fd203ee05 <-- name of conflicting commit. 
+```
 
 
 
