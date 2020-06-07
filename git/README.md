@@ -66,7 +66,7 @@ And then let's create a html file "hello.html". To do so open vim. Press key but
 		<title> My Webpage! </title>
 	</head>
 	<body>
-		Hello world!
+		Hello world! Hello again ! Hello a third time.
 	</body>
 </html>
 ```
@@ -123,7 +123,17 @@ To test it you can one your https://github.com/nameOfYourRepository.git and edit
 Save those changes. It will count as someone else provide changes to our repository. If we want to pull those changes we will use
 that command and new version of our project will be pulled to our local machine!
 
-What may happen if changes has been introduces current local workflow and server workflow? In other words what will happen if your hello world is committed but not pushed to the server and server already have new data (so our hello was changed by someone else)?
+What may happen if changes has been introduces current local workflow and server workflow? In other words what will happen
+if your hello world is committed but not pushed to the server and server already have new data (so our hello was changed by someone else)?
+
+So in our repository html file will contain text:
+Hello world! Hello, hello, hello. This is it.
+
+And our server GH repository will have:
+Hello world! Hello again.
+
+When we will try to pull all data from server we will receive **merge conflict**. It's mean that GH don't know which changes
+to apply if those changes related to the same files and same rows. The pull can happen. But we will need to manually resolve it.
 
 
 
