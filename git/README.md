@@ -143,5 +143,20 @@ to apply if those changes related to the same files and same rows. The pull can 
 >>>>>>> 2f94b6f24359c8cab50f1fe50d2ae22fd203ee05 <-- name of conflicting commit. 
 ```
 
+So you can delete that part what you don't want and left the part you want. Then you can:
+
+```bash
+git add .
+git commit -m "Changes"
+git push
+```
+
+And new version of your code will be pushed to server repository and conflict will be resolved.
+
+# History of commits GH
+
+| Command | Explanation |
+|  ---    |     ---     |
+| git log  | Show list history of commits. All commits on local machive from that time when you pull all server stored commits will be shown as list. |
 
 
