@@ -159,4 +159,26 @@ And new version of your code will be pushed to server repository and conflict wi
 |  ---    |     ---     |
 | git log  | Show list history of commits. All commits on local machive from that time when you pull all server stored commits will be shown as list. |
 
+```
+commit 20384702837528368ydt8fg42
+Author: Name Author <his@mail.com>
+Date: Mon Jan 21 12:32:53 2020 -0400
+
+	Removed line.
+```
+Notice again that you will see each commit is marked by a unique commit hash, author, date when it was made and our message
+which is in example "Remove list".
+
+| Command | Explanation |
+|  ---    |     ---     |
+| git reset  |  if you made some changes and realize that you messed up and you want to go back to the way things were before. |
+
+You can back to previouse commit like this:
+```bash
+git reset --hard <commit hash>
+git reset --hard origin/master <- get back to original server last version
+```
+
+
+
 
