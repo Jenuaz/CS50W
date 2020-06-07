@@ -70,9 +70,22 @@ And then let's create a html file "hello.html". To do so open vim. Press key but
 	</body>
 </html>
 ```
-And save file by pressing next algorithm of actions:
+Save file by pressing next algorithm of actions:
 1. Press 'Esc'.
 2. Press ':'.
 3. Write wq letters which mean w - for write and q - quit. First save all putted in text and second exit the vim text editor.
    
+Now we have hello.html in our local machine. We need to inform git to include files in next commit. To do so we need use a command
+**git add** - this command alow to add one or all files and folders. To add our one file we will write in command line:
+```bash
+git add hello.html
+```
+To add all files and folders in current place we can list names of files we want to add to our next commit or just put the dot:
+```bash
+git add .
+```
+OR
+```bash
+git add hello.html OtherNameOfFile.c
+```
 
