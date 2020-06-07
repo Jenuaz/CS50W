@@ -178,7 +178,8 @@ You can back to previouse commit like this:
 git reset --hard <commit hash>
 git reset --hard origin/master <- get back to original server last version
 ```
-
+git reset --hard \<commit hash> - reset all data and git history to that specific commit and delete all other history log which was after
+mentioned commit.  
 
 
 
