@@ -1,17 +1,18 @@
 # Commands for CMD interfase (Terminal)
 
-| Command | Explanation | Example |
+| Command | Explanation |
 |    cd   |  allow us to move around local machine files \ change directory.
 	     ***cd ./ *** - current directory.
 	     ***cd ../ *** - go to previouse in tree of file system directory. 
-| Example:
+| 
+
+Example:
 before 'cd ../'
--|Previouse Directory
-	-|Current Directory <-- cd we here
+-Previouse Directory
+	-Current Directory <-- cd we here
 after 'cd ../'
--|Previouse Directory <-- now we here
-	-|Current Directory
-|
+-Previouse Directory <-- now we here
+	-Current Directory
 
 
 
