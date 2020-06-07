@@ -66,7 +66,7 @@ And then let's create a html file "hello.html". To do so open vim. Press key but
 		<title> My Webpage! </title>
 	</head>
 	<body>
-		Hello world!
+		Hello world! Hello again !
 	</body>
 </html>
 ```
