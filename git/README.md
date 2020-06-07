@@ -52,7 +52,7 @@ Main things what git allow you to do:
 Don't be surprosed that repository which is cloned and brand new created is empty. So in terminal you will see only empty folder with an 
 repository name.
 
-# Push file to repository
+# Prepare local repository before push
 
 To push file to our brand new created and cloned repository we need to relocate to our cloned repository using command "cd".
 ```bash
@@ -99,6 +99,21 @@ difference from previouse verion of this code. It will help to return to best wo
 You need to know that git add . and git commit -m "text here" are doing snaps in your local machine repository. You didn't share your
 work with server. So if anything crucial will happened with your HDD or SDD and you didn't push all changes to server. All your 
 work with files will be lost. So don't hesitate to push changes to your server repository GH.
+
+
+| Command | Explanation |
+|  ---    |     ---     |
+| git status  |  simple command that just tells you what's currently going on in your repository. |
+Use this command to refresh your memory if your forget whether you have made new commit since the last time you checked from GH e.t.c.
+
+# How to push all our changes to GH repository
+
+| Command | Explanation |
+|  ---    |     ---     |
+| git push  | send all commits to GH server in linked repository. |
+This command allow to push all our commits (snaps) from local computer to repository. Now our GH repository will have a content.
+
+
 
 
 
