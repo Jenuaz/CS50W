@@ -119,7 +119,7 @@ This command allow to push all our commits (snaps) from local computer to reposi
 
 To test it you can one your https://github.com/nameOfYourRepository.git and edit the hello.html file directly in web editor. And 
 Save those changes. It will count as someone else provide changes to our repository. If we want to pull those changes we will use
-that command and new version of our project will be pulled to our local machine.
+that command and new version of our project will be pulled to our local machine!
 
 
 
